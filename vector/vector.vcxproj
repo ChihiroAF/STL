@@ -112,6 +112,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="name.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="vector_base.cpp" />

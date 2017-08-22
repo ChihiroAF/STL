@@ -26,7 +26,7 @@ struct print {
 		printf_s(" ");
 	}
 };
-
+/*
 int main() {
 	//定义字符串向量
 	std::vector<std::string> v_string;
@@ -99,3 +99,4 @@ int main() {
 	return 0;
 }
 
+*/

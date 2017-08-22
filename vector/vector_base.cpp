@@ -1,3 +1,4 @@
+
 #include "vector"
 #include "list""
 #include "string"
@@ -5,6 +6,7 @@
 #include "iostream"
 #include "algorithm"
 #include "numeric"
+#include "windows.h"
 
 typedef struct people {
 	int age;
@@ -33,8 +35,9 @@ int main(){
 	for (int i = 0;i < 500;i++) {
 		std::string name = CName().GetName();
 		v_string.push_back(name);
+		Sleep(1);
 	}
-	//std::for_each(v_string.cbegin(), v_string.cend(), print());
+	std::for_each(v_string.cbegin(), v_string.cend(), print());
 	std::string name = "Ð¤Ö¾¸³";
 	v_string.insert(v_string.begin(),name);
 	std::cout << "³¤¶È" << v_string.size() << std::endl;
@@ -70,3 +73,4 @@ int main(){
 	system("pause");
 	return 0;
 }
+

@@ -26,7 +26,7 @@ struct print {
 	}
 
 };
-
+/*
 int main() {
 
 	std::set<std::string> set_str;
@@ -78,3 +78,4 @@ int main() {
 	system("pause");
 	return 0;
 }
+*/

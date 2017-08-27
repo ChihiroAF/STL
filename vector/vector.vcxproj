@@ -112,9 +112,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="deque.cpp" />
     <ClCompile Include="list.cpp" />
     <ClCompile Include="map.cpp" />
     <ClCompile Include="name.cpp" />
+    <ClCompile Include="queue.cpp" />
     <ClCompile Include="set.cpp" />
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="vector.cpp" />

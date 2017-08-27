@@ -26,7 +26,7 @@ struct print {
 	}
 
 };
-
+/*
 int main() {
 
 	std::stack<int> stack_int;
@@ -52,3 +52,4 @@ int main() {
 	system("pause");
 	return 0;
 }
+*/
